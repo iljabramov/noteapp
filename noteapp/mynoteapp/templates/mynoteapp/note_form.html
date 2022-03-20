@@ -1,4 +1,5 @@
 <h3>Notiz hinzufügen</h3>
+<a href="{% url 'notes' %}">Zurück</a>
 <form method="POST" action="">
     {% csrf_token %}
     {{form.as_p}}

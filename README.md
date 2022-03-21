@@ -1,7 +1,7 @@
-Für das Folgende Programm wurde Python 3.9.7 genutzt
+Für das Folgende Programm wurde Python 3.9.7 genutzt.
 
 # erstelle virtuelle Umgebung (MacOs/Unix)
-fall nicht installiert:
+falls nicht installiert:
 $ pip install virtualenv
 
 navigiere mit Terminal in noteapp-main:

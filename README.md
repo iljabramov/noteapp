@@ -1,13 +1,31 @@
-# notapp
-#Installierung
-Nach dem Dowload des zip Folders von Git in Beliebigen Ordner entpacken.
-In navigiere mit Command-Prompt in noteapp_main
-Starte virtuelle Umgebung mit:
+Für das Folgende Programm wurde Python 3.9.7 genutzt
 
-noteapp_env\Scripts\activate.bat
+# erstelle virtuelle Umgebung (MacOs/Unix)
+fall nicht installiert:
+$ pip install virtualenv
 
-navigiere nun mit Command Prompt in noteapp und starte Server mit:
+navigiere mit Terminal in noteapp-main:
+$ virtualenv venv --system-site-packages
+$ source venv/bin/activate
 
-python manage.py runserver
+links sollte nun (venv) stehen
 
-nun läuft das Programm unter localhost:8000 bzw. dem im Prompt gezeigten link.
+# erstelle virtuelle Umgebung (Windows)
+
+fall nich installiert:
+$ pip install virtualenv
+
+navigiere mit Terminal in noteapp-main:
+$ python -m venv noteapp_env
+$ noteapp_env\Scripts\activate
+
+links sollte nun (noteapp_env) stehen
+
+# Installieren der Pakete
+$ pip install requirements.txt
+
+# start des Programms
+$ cd noteapp
+$ python manage.py runserver
+
+nun läuft das  Programm unter localhost:8000 bzw. dem im Terminal erschienen Link.

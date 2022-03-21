@@ -2,7 +2,7 @@ Für das Folgende Programm wurde Python 3.9.7 genutzt.
 
 # erstelle virtuelle Umgebung (MacOs/Unix)
 falls nicht installiert:
-$ pip install virtualenv
+```pip install virtualenv```
 
 navigiere mit Terminal in noteapp-main:
 ```virtualenv venv --system-site-packages```

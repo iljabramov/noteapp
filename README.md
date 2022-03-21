@@ -22,7 +22,7 @@ $ noteapp_env\Scripts\activate
 links sollte nun (noteapp_env) stehen
 
 # Installieren der Pakete
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 
 # start des Programms
 $ cd noteapp

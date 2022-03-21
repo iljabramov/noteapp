@@ -29,3 +29,7 @@ links sollte nun (noteapp_env) stehen
 ```python manage.py runserver```
 
 nun läuft das  Programm unter localhost:8000 bzw. dem im Terminal erschienen Link.
+
+es gibt einen Testuser:
+Benutzername: testuser
+Passwort: test1234
